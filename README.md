@@ -1,24 +1,20 @@
 # Stream Track 🎬
 
-Stream Track est une application web moderne conçue pour surveiller la disponibilité de vos films préférés sur les plateformes de streaming en France. Ne manquez plus jamais la sortie d'un film sur vos services d'abonnement.
+Stream Track est une application web premium pour surveiller la disponibilité des films sur les plateformes de streaming (Netflix, Canal+, Disney+, etc.).
 
-## ✨ Fonctionnalités
-- **Recherche Dynamique** : Basée sur l'API TMDB.
-- **Tracking Personnalisé** : Enregistrez les films que vous attendez.
-- **Notifications Push** : Recevez une alerte dès qu'un film entre dans le catalogue d'une de vos plateformes.
-- **Multi-Plateformes** : Support de Netflix, Canal+, Prime Video, Disney+, Apple TV, Paramount+, et plus.
-- **Trailers VF** : Visualisation directe des bandes-annonces officielles en version française.
-- **Stockage Local** : Vos données restent chez vous, aucun compte requis.
+## ✨ Caractéristiques
+- **Scan Automatique** : Vérifie l'état de votre liste à chaque ouverture.
+- **Tri Intelligent** : Organisez par titre ou par date d'ajout.
+- **Badges de Statut** : Identification visuelle immédiate des films disponibles.
+- **Trailers VF** : Intégration conforme des bandes-annonces YouTube.
+- **Full Responsive** : Optimisé pour PC, Tablettes et Smartphones.
+- **Zéro Data Center** : Tout est stocké dans votre LocalStorage.
 
-## 🎨 Direction Artistique
-L'interface arbore un style **Premium Noir & Rouge**, inspiré de l'identité visuelle de Canal+. Design minimaliste, contrasté et entièrement responsive.
+## 🛠️ Stack Technique
+- HTML5 / CSS3 (Custom Variables)
+- JavaScript ES6+ (Async/Await)
+- API TMDB (The Movie Database)
+- Lucide Icons (SVG natif)
 
-## 🛠️ Installation & Tech Stack
-- **Frontend** : HTML5, CSS3 (Variables personnalisées), JavaScript (ES6+).
-- **Icons** : Lucide Icons.
-- **API** : The Movie Database (TMDB).
-- **Hébergement** : GitHub Pages.
-- **Domaine** : http://streamtrack.bryan.ovh/
-
-## ⚖️ Conformité
-L'application respecte les droits d'auteur en utilisant exclusivement les embeds officiels de YouTube pour les bandes-annonces (Trailers VF uniquement).
+## 📡 Déploiement
+Disponible sur : http://streamtrack.bryan.ovh/

@@ -19,30 +19,37 @@
         <section class="search-container">
             <form id="search-form">
                 <div class="search-bar">
-                    <input type="text" id="search-input" placeholder="Quel film cherchez-vous ?" required>
-                    <button type="submit"><i data-lucide="search"></i></button>
+                    <input type="text" id="search-input" placeholder="Rechercher un film..." required>
+                    <button type="submit" class="btn-primary"><i data-lucide="search"></i></button>
                 </div>
             </form>
 
             <div class="platform-filter">
-                <p>Mes plateformes :</p>
-                <div id="platform-checkboxes" class="platform-grid">
-                </div>
+                <p>Mes plateformes de recherche :</p>
+                <div id="platform-checkboxes" class="platform-grid"></div>
             </div>
         </section>
 
         <section id="results-section" class="content-section hidden">
             <div class="section-header">
                 <i data-lucide="sparkles"></i>
-                <h2>Résultats de recherche</h2>
+                <h2>Résultats</h2>
             </div>
             <div id="search-results" class="movie-grid"></div>
         </section>
 
         <section class="content-section">
             <div class="section-header">
-                <i data-lucide="bell-ring"></i>
-                <h2>Films en veille</h2>
+                <div class="header-left">
+                    <i data-lucide="bell-ring"></i>
+                    <h2>Ma Veille</h2>
+                </div>
+                <div class="header-right">
+                    <select id="sort-select" class="sort-dropdown">
+                        <option value="date">Date d'ajout</option>
+                        <option value="alpha">Ordre Alphabétique</option>
+                    </select>
+                </div>
             </div>
             <div id="tracked-movies" class="movie-grid"></div>
         </section>
