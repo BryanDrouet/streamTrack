@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinéVeille</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header>
+        <h1><i data-lucide="clapperboard"></i> CinéVeille</h1>
+    </header>
+    <main>
+        <section class="search-section">
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Rechercher un film (ex: Super Mario Bros)..." required>
+                <button type="submit"><i data-lucide="search"></i></button>
+            </form>
+            <div class="platforms" id="platform-checkboxes">
+                <label><input type="checkbox" value="8" class="platform-check" checked> Netflix</label>
+                <label><input type="checkbox" value="381" class="platform-check" checked> Canal+</label>
+                <label><input type="checkbox" value="119" class="platform-check" checked> Prime Video</label>
+                <label><input type="checkbox" value="337" class="platform-check" checked> Disney+</label>
+            </div>
+        </section>
+        
+        <section id="search-results" class="grid-container"></section>
+        
+        <section class="tracked-section">
+            <h2><i data-lucide="eye"></i> Films en attente</h2>
+            <div id="tracked-movies" class="grid-container"></div>
+        </section>
+    </main>
+
+    <div id="trailer-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal"><i data-lucide="x"></i></span>
+            <div id="video-container"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
