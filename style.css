@@ -1,13 +1,13 @@
 :root {
-    --bg-color: #121212;
-    --card-bg: #1e1e1e;
+    --bg-color: #000000;
+    --card-bg: #111111;
     --text-color: #ffffff;
-    --accent-color: #e50914;
-    --border-radius: 8px;
+    --accent-color: #e3001b;
+    --border-radius: 4px;
 }
 
 body {
-    font-family: system-ui, -apple-system, sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     background-color: var(--bg-color);
     color: var(--text-color);
     margin: 0;
@@ -17,6 +17,10 @@ body {
 header {
     text-align: center;
     margin-bottom: 30px;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 header h1 {
